@@ -1,3 +1,4 @@
+language : python
 deploy:
   provider: gae
   keyfile: /tmp/elaborate-baton-330221-96373d7b3ebd.json
