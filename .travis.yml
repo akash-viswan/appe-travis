@@ -2,6 +2,8 @@ deploy:
   provider: gae
   keyfile: /tmp/elaborate-baton-330221-96373d7b3ebd.json
   project: elaborate-baton-330221
+  on:
+    all_branches: true
 before_install:
 - openssl aes-256-cbc -K $encrypted_184ea77871be_key -iv $encrypted_184ea77871be_iv
   -in elaborate-baton-330221-96373d7b3ebd.json.enc -out /tmp/elaborate-baton-330221-96373d7b3ebd.json
